@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>Form</title>
+<link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="inclueds/form.css">
+<meta name ="viewport" content ="width=device-width,initial-scale=1">
+    </head>
+<body class="bodybackground">
+        
+
+          <form action="http://html5-book.co.il/teach/forms/get_form2.php " method="GET">
+       
+            <div class="bg">
+
+                    <div class="centered pot">
+                      <div class="fill"></div>
+                      <div class="pot-lines">
+                        <div class="tick"></div>
+                        <div class="tick"></div>
+                        <div class="tick"></div>
+                        <div class="tick"></div>
+                        <div class="tick"></div>
+                        <div class="tick"></div>
+                        <div class="tick"></div>
+                        <div class="tick"></div>
+                      </div>
+                    </div>
+                    <div class="centered pot-lip"></div>
+                    <div class="centered pot-bar"></div>
+                   
+                    
+                    
+                    <div class="centered plate"></div>
+                    <div class="centered plate" id="inner"></div>
+                    <div class="centered cup"></div>
+                    <div class="centered cup-bottom"></div>
+                    
+                    <div class="centered coffee">
+                      <div class="ripple"></div>
+                    </div>
+                    
+                    <div class="centered pour">
+                      <div class="stripes"></div>
+                      <div class="stripes"></div>
+                      <div class="stripes"></div>
+                    </div>
+                    <div>
+                      <div class="centered splash"></div>
+                      <div class="centered splash"></div>
+                      <div class="centered splash"></div>
+                    </div>
+                      
+                    </div>  
+
+
+                        <div class="formwrap">
+
+                    <h2>Coffee</h2>
+                    <div class="form-group">
+                            <label for="usr">Name:</label>
+                            <input type="text" class="form-control" placeholder="Enter FullName" id="usr" name="fullName">
+                          </div>   
+                          <div class="form-group">
+                                <label for="pwd">Password:</label>
+                                <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pass">
+                              </div>  
+                      <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email"  class="form-control" id="email" placeholder="Enter email" name="mail">
+                      </div>
+                      <div class="form-group">
+                            <label for="website">Website</label>
+                            <input type="url" class="form-control" id="url" placeholder="Enter Website URL" name="website">
+                          </div>
+                          <div class="form-group">
+                                <label for="phome">Phone Number</label>
+                                <input type="tel" class="form-control" id="tel" placeholder="Enter Phone Number" name="phone">
+                              </div>
+                              <div class="form-group">
+                                    <label for="Coffee">Coffee</label>
+                                    <input type="number" class="form-control" id="tel" placeholder="Coffee" name="coffee">
+                                  </div>
+                                  <div class="form-group">
+                                        <label for="Temperature">Temperatur</label>
+                                        <input type="range" class="form-control" id="Temperature" placeholder="Coffee" name="temper">
+                                      </div>
+                                      <div class="form-group">
+                                            <label for="address">Adress</label>
+                                            <input type="text" class="form-control" id="address" placeholder="address" name="address">
+                                          </div>
+
+
+                                        
+                                                <label for="gender">Choose your Coffee:</label>
+                                         
+                                                <div class="radio" name="gender" >
+                                            <label><input type="radio" name="gender" value="Coffee Elite" >Coffee "Elite" </label>
+                                             <label><input type="radio" name="gender" value="Coffee Tasters choise" >Coffee "Tasters choise"</label>
+                                              <label><input type="radio" name="gender" value="Coffee Nespresso" >Coffee "Nespresso"</label>
+                                            
+
+                                              </div>
+
+                                             
+                                              <label for="interests[]">Hobbies:</label>
+                                         
+                                              <div class="checkbox">
+                                                <label><input type="checkbox" name="interests[]" value="Drinking Coffee" >Drinking Coffee </label>
+                                                  <label><input type="checkbox" name="interests[]" value="Drinking Tea" >Drinking Tea</label>
+                                                  <label><input type="checkbox" name="interests[]" value="Drinking Tasters choise"  >Drinking Tasters choise</label>
+                                                
+    
+                                                  </div>
+
+                                                  <label for="age">Age:</label>
+                                                  <div class="number">
+                                                 <label> <input type="number" name="age" id="age" value ="35" min="22"
+                                                max="67"> </label>
+                                            </div>
+                                                
+                                              
+
+                                                  
+                       <button type="submit" class="btn btn-default">Ship my Coffee now !</button>
+                    </form>
+                  </div>
+
+    </body>
+</html>
